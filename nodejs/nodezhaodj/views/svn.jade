@@ -1,0 +1,45 @@
+extends layout
+
+block style
+    style(type='text/css')
+        .half{
+            width:50%;
+            float:left;
+        }
+        .half ul{
+            white-space:nowrap;
+            overflow-x:auto;
+        }
+
+block content
+    each name in data
+        section(class='half')
+            figure(id='#{name}')
+                legend 项目：#{name}
+                input(class='status',type='button',value='查看状态')
+                input(class='update',type='button',value='更新')
+                ul(class='info')
+    script(type='text/javascript')
+        $(function(){
+            $('section .status').each(function(){
+                dopost($(this),'/status');
+            });
+            $('section .update').click(function(){
+                dopost($(this),'/update');
+            });
+            $('section .status').click(function(){dopost($(this),'/status')});
+            function dopost(btn,url){
+                var name=btn.closest('figure').attr('id');
+                $.post('/svn/'+name+url,function(res){
+                    if(res.success){
+                        var info=btn.siblings('.info');
+                        info.empty();
+                        if(res.data){
+                            for(var i=0;i<res.data.length;i++){
+                                info.append('<li>'+res.data[i]+'</li>');
+                            }
+                        }
+                    }
+                });
+            }
+        });

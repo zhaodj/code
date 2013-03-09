@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>显示坐标</title>
+        <meta charset="utf-8">
+        <style>
+        #sprite{
+            border:1px solid #000;
+            float:left;
+        }
+        #position{
+            display:none;
+            position:absolute;
+            background:rgba(0,0,0,0.8);
+            color:#fff;
+            padding:3px;
+            border-radius:3px;
+        }
+        </style>
+    </head>
+    <body>
+        <div>
+            <input id='image' type='file' accept='image/png|image/jpg'/>
+        </div>
+        <div id='sprite'>
+        </div>
+        <span id='position'></span>
+        <script src="js/jquery-1.7.1.min.js"></script>
+        <script src='js/sprite.js'>
+        </script>
+    </body>
+</html>

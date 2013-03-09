@@ -1,0 +1,11 @@
+{
+    "name": "nodezhaodj",
+    "description": "node blog",
+    "version": "0.1.0",
+    "author": "zhaodj",
+    "dependencies": {
+        "express":"2.5.8",
+        "jade":"0.24.0"
+    },
+    "devDependencies": {}
+}

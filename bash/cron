@@ -1,0 +1,2 @@
+* * * * * /data/tmp/crondemo.sh
+0 4,18 * * * /data/tmp/mongodbbackup.sh

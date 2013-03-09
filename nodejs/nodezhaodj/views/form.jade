@@ -1,0 +1,8 @@
+extends layout
+block content
+        form(method='post',action='/form',enctype='multipart/form-data',target='hiddenFrame')
+                label 图片
+                input(name='img',type='file')
+                input(type='submit',value='提交')
+                iframe#hiddenFrame(style='display:none;')
+

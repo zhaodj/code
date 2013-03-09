@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>cursor测试</title>
+		<style>
+			.block{
+				height:500px;
+			}
+			.pointer{
+				background:blue;
+				cursor:pointer;
+			}
+			.custom{
+				background:red;
+				cursor:url('enlarge.png'),default;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="block"></div>
+		<div class="block custom"></div>
+		<div class="block pointer"></div>
+	</body>
+</html>
+

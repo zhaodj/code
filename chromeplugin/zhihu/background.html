@@ -1,0 +1,8 @@
+<html>
+<script type="text/javascript">
+chrome.browserAction.onClicked.addListener(function(tab) {
+	console.log('chrome.tabs.executeScript: '+ tab.id);
+	chrome.tabs.executeScript(tab.id, {file: "content.js"});
+});
+</script>
+</html>

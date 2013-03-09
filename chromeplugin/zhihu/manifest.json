@@ -1,0 +1,16 @@
+{
+  "name": "知乎抓取",
+  "version": "1.0",
+  "description": "知乎话题抓取",
+	"background_page":"background.html",
+  "browser_action": {
+    "default_icon": "icon.png"/*,
+    "popup": "popup.html"*/
+  },
+	"content_scripts": [
+    {
+			"matches": ["http://*/*"],
+      "js": ["jquery-1.7.1.min.js"]
+    }],
+  "permissions": ["tabs","http://*/*"]
+}
