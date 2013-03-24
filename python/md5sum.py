@@ -16,7 +16,7 @@ def md5sum(filepath):
 def upddb(imgroot):
     con=Connection()
     db=con.miidooo
-    for img in db.userImages.find({'type':0,'hashcode':{'$exists':0}}):
+    for img in db.userImages.find({'type':0,'hashcode':{'$exists':0}},Fields={'shootedDate':False}):
         filepath=imgroot+img['path']
         print(filepath)
         if os.path.isfile(filepath):
