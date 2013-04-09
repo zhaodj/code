@@ -1,3 +1,4 @@
 "Bundle 'git://github.com/digitaltoad/vim-jade.git'
 Bundle 'taglist.vim'
+Bundle 'jnwhiteh/vim-golang'
 Bundle 'git://github.com/majutsushi/tagbar.git'
