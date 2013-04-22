@@ -19,10 +19,16 @@ def recur(filename,filepath,stime,outdir):
                 print(u'创建目录:'+outdir)
                 os.makedirs(outdir)
             dst=os.path.join(outdir,filename)
-            print(filepath,dst)
+            print(filepath)
             shutil.copyfile(filepath,dst)
 
 def export(rootdir,outdir,start):
+    '''
+    Args:
+        rootdir:遍历目录
+        outdir:输出目录
+        start:时间点
+    '''
     print(start)
     if os.path.isdir(rootdir):
         stime=datetime.strptime(start,"%Y-%m-%d %H:%M:%S") #输入日期转换
