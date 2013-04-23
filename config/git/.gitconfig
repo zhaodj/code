@@ -1,0 +1,12 @@
+[user]
+	name = Zhao Daojun
+	email = zhaodj1985@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
+[alias]
+	ci = commit
+	st = status
