@@ -62,6 +62,7 @@
 
 - 项目时间：2010~2011
 - 职责：需求分析、架构设计、代码实现
+- 主要技术：c#，asp.net mvc，Telerik.Mvc，windows，visual studio，sqlserver，iis，svn
 
 ## 宝迪协同办公系统
 以公司X5协同办公系统为基础，针对宝迪公司情况定制实施
@@ -75,7 +76,7 @@ X5系统的java版本
 
 - 参与时间：2009-2010
 - 职责：软件开发
-- 主要技术：java，spring，struts，hibernate，mysql，tomcat
+- 主要技术：java，spring，struts，hibernate，mysql，tomcat，extjs
 
 ## 秦皇岛港务集团资产管理系统
 该项目是为秦皇岛港务集团实施的Datastream7i资产管理系统
