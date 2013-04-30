@@ -49,7 +49,7 @@
 		- 项目实施
 		- 管理系统开发
 
-[主要项目详细介绍](https://github.com/zhaodj/code/projects.md)
+[主要项目详细介绍](projects.md)
 
 ##主要技能
 - 熟练使用linux
