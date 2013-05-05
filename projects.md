@@ -22,7 +22,7 @@
 - 微信公众帐号：baobeidakaxiu
 - 主要技术：
 	- 后端：golang
-	- 前段：jquery，backbone.js
+	- 前端：jquery，backbone.js
 	- 环境及工具：linux，git，mongodb，vim
 - 工作内容：负责所有后端代码实现，实现与微信接口以及米豆相册网站的对接；指导前端工程师熟悉backbone.js的使用。
 
