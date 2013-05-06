@@ -1,4 +1,5 @@
 #!/bin/sh
 
 #svn hooks
+#放到代码库hooks目录下，并设置文件的执行权限
 svn update /Users/zhaodaojun/Documents/workspace/childalbum/childalbum-web
