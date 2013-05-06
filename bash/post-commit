@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#svn hooks
+svn update /Users/zhaodaojun/Documents/workspace/childalbum/childalbum-web
