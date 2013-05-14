@@ -3,13 +3,12 @@ import sys,re
 
 def extract(filepath):
     fi=file(filepath)
-    key=filepath[filepath.rfind('/')+1:filepath.index('.txt')]
-    regex=re.compile(u'[。？“”]?([\u4e00-\u9fa5]*'+key+u'[\u4e00-\u9fa5]*)[。？“”]?')
+    regex=re.compile('[^。？，；]*\[[\u4e00-\u9fa5]+\][^。？，；]*')#[。？，]?([^。？，；]*\[[\u4e00-\u9fa5]+\][^。？，；]*)[。？，]?
     while True:
         line=fi.readline()
         if len(line)==0:
             break
-        m=regex.search(line.decode('utf-8'))
+        m=regex.search(line)
         print(line)
         if m:
             print(m.group(1))
