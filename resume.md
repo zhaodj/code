@@ -49,11 +49,11 @@
 		- 项目实施
 		- 管理系统开发
 
-[主要项目详细介绍](projects.md)
+[主要项目详细介绍](https://github.com/zhaodj/code/blob/master/projects.md)
 
 ##主要技能
 - 熟练使用linux
-- 编程语言：java，javascript，golang，python，html，css，c#
+- 编程语言：java，javascript，golang，python，bash，html，css，c#
 - 常用框架：spring，spring mvc，jquery，backbone
 - 常用工具：eclipse，vim，ssh，git，svn，maven，nginx，jetty，mongodb，mysql
 
