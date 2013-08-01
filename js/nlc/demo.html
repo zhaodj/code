@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Tagcloud</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./lib/jquery.tagcanvas.js"></script>
+    </head>
+    <body style="background:#fcfbfb;">
+        <div id="outer-header">
+            <header>
+                <nav>
+                    <ul class="views">
+                        <li class="active">首页</li>
+                        <li>国图指数</li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <section id="content">
+            <div class="main">
+                <div id="search">
+                    <form>
+                        <input type="text" name="query">
+                        <input type="submit" value="搜索">
+                    </form>
+                </div>
+                <div id="canvas-container">
+                    <canvas id="canvas" width="300" height="300">
+                        <ul id="tags">
+                            <li><a href="javascript:void(0);">鲁迅</a></li>
+                            <li><a href="javascript:void(0);">郭沫若</a></li>
+                            <li><a href="javascript:void(0);">莫言</a></li>
+                            <li><a href="javascript:void(0);">陈丹青</a></li>
+                            <li><a href="javascript:void(0);">设计</a></li>
+                            <li><a href="javascript:void(0);">电影</a></li>
+                            <li><a href="javascript:void(0);">三国志</a></li>
+                            <li><a href="javascript:void(0);">正能量</a></li>
+                            <li><a href="javascript:void(0);">可视化</a></li>
+                            <li><a href="javascript:void(0);">余华</a></li>
+                            <li><a href="javascript:void(0);">废都</a></li>
+                            <li><a href="javascript:void(0);">史记</a></li>
+                            <li><a href="javascript:void(0);">鲁迅</a></li>
+                            <li><a href="javascript:void(0);">郭沫若</a></li>
+                            <li><a href="javascript:void(0);">莫言</a></li>
+                            <li><a href="javascript:void(0);">陈丹青</a></li>
+                            <li><a href="javascript:void(0);">设计</a></li>
+                            <li><a href="javascript:void(0);">电影</a></li>
+                            <li><a href="javascript:void(0);">三国志</a></li>
+                            <li><a href="javascript:void(0);">正能量</a></li>
+                            <li><a href="javascript:void(0);">可视化</a></li>
+                            <li><a href="javascript:void(0);">余华</a></li>
+                            <li><a href="javascript:void(0);">废都</a></li>
+                            <li><a href="javascript:void(0);">史记</a></li>
+                        </ul>
+                    </canvas>
+                    <canvas id="canvas-img" width="300" height="300">
+                        <ul>
+                            <li>
+                                <a target="_blank" href="http://find.nlc.gov.cn/search/showDocDetails?docId=-5353199282133135356&dataSource=ucs01&query=%E9%B2%81%E8%BF%85">
+                                    <img src="img/20001968-1_w.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://find.nlc.gov.cn/search/showDocDetails?docId=-7274248154442525547&dataSource=ucs01&query=%E9%B2%81%E8%BF%85">
+                                    <img src="img/20026696-1_w.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://find.nlc.gov.cn/search/showDocDetails?docId=-5353199282133135356&dataSource=ucs01&query=%E9%B2%81%E8%BF%85">
+                                    <img src="img/20777827-1_w.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://find.nlc.gov.cn/search/showDocDetails?docId=-5353199282133135356&dataSource=ucs01&query=%E9%B2%81%E8%BF%85">
+                                    <img src="img/21090357-1_w.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://find.nlc.gov.cn/search/showDocDetails?docId=-5353199282133135356&dataSource=ucs01&query=%E9%B2%81%E8%BF%85">
+                                    <img src="img/22496394-1_w.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://find.nlc.gov.cn/search/showDocDetails?docId=-5353199282133135356&dataSource=ucs01&query=%E9%B2%81%E8%BF%85">
+                                    <img src="img/22533383-1_w.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://find.nlc.gov.cn/search/showDocDetails?docId=-5353199282133135356&dataSource=ucs01&query=%E9%B2%81%E8%BF%85">
+                                    <img src="img/22576044-1_w.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://find.nlc.gov.cn/search/showDocDetails?docId=-5353199282133135356&dataSource=ucs01&query=%E9%B2%81%E8%BF%85">
+                                    <img src="img/22585241-1_w.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://find.nlc.gov.cn/search/showDocDetails?docId=-5353199282133135356&dataSource=ucs01&query=%E9%B2%81%E8%BF%85">
+                                    <img src="img/22812692-1_w.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://find.nlc.gov.cn/search/showDocDetails?docId=-5353199282133135356&dataSource=ucs01&query=%E9%B2%81%E8%BF%85">
+                                    <img src="img/22915244-1_w.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://find.nlc.gov.cn/search/showDocDetails?docId=-5353199282133135356&dataSource=ucs01&query=%E9%B2%81%E8%BF%85">
+                                    <img src="img/22925237-1_w.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://find.nlc.gov.cn/search/showDocDetails?docId=-5353199282133135356&dataSource=ucs01&query=%E9%B2%81%E8%BF%85">
+                                    <img src="img/23268327-1_w.jpg">
+                                </a>
+                            </li>
+                        </ul>
+                    </canvas>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript">
+            $(function(){
+                $('#canvas').tagcanvas({
+                    textColour:'blue',
+                    outlineThickness:1,
+                    initial:[0.08,-0.07],
+                    minSpeed:0.02,
+                    maxSpeed:0.02,
+                    textHeight:18,
+                    freezeActive:true,
+                    depth:0.75
+                });
+                $('#tags li a').click(function(){
+                    var word=encodeURIComponent($(this).text());
+                    var url='http://find.nlc.gov.cn/search/doSearch?query='+word+'&secQuery=&actualQuery='+word+'&searchType=2&docType='+encodeURIComponent('全部')+'&isGroup=isGroup&targetFieldLog='+encodeURIComponent('全部字段')+'&orderBy=RELATIVE';
+                    window.open(url);
+                });
+                $('#canvas-img').tagcanvas({
+                    initial:[0.08,-0.07],
+                    minSpeed:0.02,
+                    maxSpeed:0.02,
+                    freezeActive:true,
+                    imageScale:0.2,
+                    depth:0.75
+                });
+            });
+        </script>
+    </body>
+</html>
+                                <a href="javascript:void(0);"><img src=""></a>

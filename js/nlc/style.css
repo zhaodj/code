@@ -1,0 +1,101 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    width:100%;
+    height:100%;
+    position:absolute;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li{
+    list-style: none;
+    list-style-type: none;
+}
+#outer-header{
+    box-shadow: 0 3px 5px #bcbdbf;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    height:60px;
+    background: linear-gradient(to bottom, #1877b6 0%, #146da7 100%);
+}
+#outer-header header{
+    width: 100%;
+    height:100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+#outer-header nav{
+    height:100%;
+}
+#outer-header nav .views{
+    height:100%;
+    float:left;
+    display:block;
+    transition: all 0.3s linear;
+}
+#outer-header .views li{
+    padding: 0 22px;
+    height: 60px;
+    line-height: 62px;
+    float: left;
+    vertical-align: middle;
+    color: #FFF;
+    font-size: 13px;
+    border-left: 1px solid #4285b1;
+    border-right: 1px solid #005b98;
+    cursor: pointer;
+}
+#outer-header .views li.active{
+    background-color: rgb(4, 97, 159);
+}
+#content{
+    position:absolute;
+    width:100%;
+    top:60px;
+    bottom:0;
+}
+#content .main{
+    padding-top:20px;
+    max-width:1272px;
+    min-width:320px;
+    margin:0 auto;
+}
+#search input[type="text"]{
+    padding: .5em .6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    width:30em;
+    font-size: 1.2em;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-transition: .3s linear border;
+    -moz-transition: .3s linear border;
+    -ms-transition: .3s linear border;
+    -o-transition: .3s linear border;
+    transition: .3s linear border;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+#search input[type="submit"]{
+    padding: .5em .6em;
+    background:rgb(4, 97, 159);
+    font-size:1.2em;
+    border: 1px solid rgb(4,97,159);
+    color:#fff;
+}
+#canvas-container{
+    margin-top:20px;
+}
+#canvas-container canvas{
+    border:1px solid blue;
+}
