@@ -14,9 +14,10 @@
 - E-mail：zhaodj1985#gmail.com
 - 手机：15210157146
 - GitHub：[https://github.com/zhaodj](https://github.com/zhaodj)
-- 新浪微博：[http://weibo.com/zhaodaojun](http://weibo.com/zhaodaojun)
 
 ##工作经历
+
+- 2013.7~现在: 网易，
  
 - 2011.11~2013.5：普望信息技术有限公司，技术负责人。  
 	- 主要职责：
