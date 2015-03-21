@@ -17,12 +17,16 @@
 
 ##工作经历
 
-- 2013.7~现在: 网易，
+- 2013.7至今: 网易，资深软件工程师
+	- 负责产品：
+		- BoBo视频社区
+		- 网易微博开放平台
+		- 网易海外置业
  
-- 2011.11~2013.5：普望信息技术有限公司，技术负责人。  
+- 2011.11~2013.5：普望信息技术有限公司，技术负责人  
 	- 主要职责：
 		- 产品技术架构
-		- 绝大部分代码实现
+		- 产品代码实现
 		- 服务器维护
 	- 负责产品：
 		- 小明聊天机器人
@@ -31,7 +35,7 @@
 		- 米豆移动应用后端数据接口
 		- 微信应用宝贝大咖秀
 		
-- 2010.11~2011.11：北京华信思创科技有限公司，技术负责人。  
+- 2010.11~2011.11：北京华信思创科技有限公司，技术负责人 
 	- 主要职责：
 		- 软件架构
 		- 代码实现
@@ -48,19 +52,15 @@
 	- 主要职责：
 		- 项目实施
 		- 管理系统开发
-
-[主要项目经验详细介绍](https://github.com/zhaodj/code/blob/master/projects.md)
+		
+[项目经验介绍](https://github.com/zhaodj/code/blob/master/projects.md)
 
 ##主要技能
-- 熟练使用linux，macos
-- 编程语言：java，javascript，golang，python，bash，html，css，c#，c
-- 常用框架：spring，spring mvc，hibernate,jquery，backbonejs
-- 常用工具：eclipse，vim，ssh，git，svn，maven，nginx，jetty，mongodb，mysql
+- 熟练使用 linux，macos
+- 编程语言：java，javascript，golang，python，bash，html，css，c
+- 常用框架：spring，spring mvc，mybatis，jquery，backbonejs
+- 常用工具：eclipse，vim，ssh，git，svn，maven，nginx，jetty，redis，mongodb，mysql，docker
 
 ##教育经历
 
-- 2002~2006：中南大学：信息管理与信息系统。
-
-##自我评价
-- 迄今为止大部分工作都是在创业型公司，做过的项目以web前后端开发为主；关注新技术，学习能力优秀，希望在技术这条路上走得更有深度和广度。
-
+- 2002~2006：中南大学：信息管理与信息系统
