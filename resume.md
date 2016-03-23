@@ -1,6 +1,6 @@
-#简历
+# 简历
 
-##个人信息
+## 个人信息
 
 姓名：赵道军  
 性别：男  
@@ -9,13 +9,13 @@
 籍贯：湖北洪湖  
 学历：本科
 
-###联系方式
+### 联系方式
 
 - E-mail：zhaodj1985#gmail.com
 - 手机：15210157146
 - GitHub：[https://github.com/zhaodj](https://github.com/zhaodj)
 
-##工作经历
+## 工作经历
 
 - 2015.8 至今：沙帮科技有限公司，技术负责人
     - 主要职责：
@@ -74,7 +74,7 @@
 - 编程语言: java, javascript, golang, html, css, python
 - 常用开发框架: spring, spring mvc, mybatis, netty
 - 常用服务工具: nginx, rabbitmq, jetty, resin, redis, mysql
-- 常用开发环境: IntelliJ IDEA, Eclipse, vim, ssh, git, svn, maven, docker
+- 常用开发环境: IntelliJ IDEA, Eclipse, vim, ssh, git, svn, maven, nodejs, docker
 
 ##教育经历
 
@@ -88,6 +88,7 @@
 
 - 项目时间：2014.11~2014.12
 - 网址：[nlcdv.17mis.com/](http://nlcdv.17mis.com/)
+- 项目地址：[github.com/zhaodj/nlc_dv](https://github.com/zhaodj/nlc_dv)
 - 项目简介：后端使用go语言开发，主要实现了CNMARC的解析及简易的搜索(参考lucene)模块，前端使用D3.js实现数据可视化展示
 
 #### nginx生成缩略图插件
@@ -105,6 +106,7 @@ nginx handler模块，访问图片文件时，根据配置自动生成缩略图
 - 网址：[www.sandband.cn](http://www.sandband.cn)
 - 项目简介：按B2B2C模式实现的农产品电商平台，包含PC网站、移动端网站（适配微信入口），接入支付宝及微信支付；同时开发了基地（商户）系统、后台管理系统；实现网站与基地系统的单点登录。
 - 工作内容：系统架构、技术选型、运维部署；技术团队的协作指导
+- 相关技术：
 
 #### 自动灌溉控制系统
 

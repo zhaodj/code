@@ -6,7 +6,8 @@
 ### CNMARC数据可视化Demo
 
 - 项目时间：2014.11~2014.12
-- 网址：[nlcdv.17mis.com/](http://nlcdv.17mis.com/)
+- 演示网址：[nlcdv.17mis.com/](http://nlcdv.17mis.com/)
+- 项目地址：[github.com/zhaodj/nlc_dv](https://github.com/zhaodj/nlc_dv)
 - 项目简介：后端使用go语言开发，主要实现了CNMARC的解析及简易的搜索(参考lucene)模块，前端使用D3.js实现数据可视化展示
 
 ### nginx生成缩略图插件
