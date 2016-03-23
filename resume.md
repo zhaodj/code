@@ -32,7 +32,7 @@
 	- 其他参与项目：
 		- 网易微博开放平台
 		- 网易海外置业
- 
+
 - 2011.11~2013.5：普望信息技术有限公司，技术负责人  
 	- 主要职责：
 		- 产品技术架构
@@ -44,8 +44,8 @@
 		- 米豆相册网站
 		- 米豆移动应用后端数据接口
 		- 微信应用宝贝大咖秀
-		
-- 2010.11~2011.11：北京华信思创科技有限公司，技术负责人 
+
+- 2010.11~2011.11：北京华信思创科技有限公司，技术负责人
 	- 主要职责：
 		- 软件架构
 		- 代码实现
@@ -64,25 +64,25 @@
 	- 主要职责：
 		- 项目实施
 		- 管理系统开发
-		
 
-##个人能力
+
+## 个人能力
 负责过各种不同类型项目，对前后端技术都比较熟悉，对构建一个完整的互联网产品能进行系统的设计和架构，有丰富的性能调优经验。
 
-##主要技能
+## 主要技能
 - 精通 linux 环境
 - 编程语言: java, javascript, golang, html, css, python
-- 常用开发框架: spring, spring mvc, mybatis, netty
+- 常用开发框架: spring, spring mvc, mybatis, netty, angularjs
 - 常用服务工具: nginx, rabbitmq, jetty, resin, redis, mysql
 - 常用开发环境: IntelliJ IDEA, Eclipse, vim, ssh, git, svn, maven, nodejs, docker
 
-##教育经历
+## 教育经历
 
 - 2002~2006：中南大学：信息管理与信息系统
 
-##项目介绍
+## 项目介绍
 
-###个人项目
+### 个人项目
 
 #### CNMARC数据可视化Demo
 
@@ -98,7 +98,7 @@ nginx handler模块，访问图片文件时，根据配置自动生成缩略图
 - 项目地址：[github.com/zhaodj/ngx-http-gm-module](https://github.com/zhaodj/ngx-http-gm-module)
 - 相关技术：c，nginx，GraphicsMagick
 
-###工作项目
+### 工作项目
 
 #### 沙帮电商平台
 
@@ -106,7 +106,7 @@ nginx handler模块，访问图片文件时，根据配置自动生成缩略图
 - 网址：[www.sandband.cn](http://www.sandband.cn)
 - 项目简介：按B2B2C模式实现的农产品电商平台，包含PC网站、移动端网站（适配微信入口），接入支付宝及微信支付；同时开发了基地（商户）系统、后台管理系统；实现网站与基地系统的单点登录。
 - 工作内容：系统架构、技术选型、运维部署；技术团队的协作指导
-- 相关技术：
+- 相关技术：nginx，mysql，redis，jetty，spring，mybatis，gulp，webpack，bower，angularjs
 
 #### 自动灌溉控制系统
 
@@ -175,7 +175,7 @@ nginx handler模块，访问图片文件时，根据配置自动生成缩略图
 	- 后端：java，c++，spring，spring mvc，velocity，morphia
 	- 前端：jquery
 	- 环境及工具：linux，eclipse，maven，svn，mongodb，jetty，nginx
-	
+
 #### 你好网全球景点库
 为外包项目，分为对外开放的前台网站以及给内部编辑使用的后台系统。
 
@@ -186,7 +186,7 @@ nginx handler模块，访问图片文件时，根据配置自动生成缩略图
 	- 后端：c#，asp.net mvc
 	- 前端：jquery
 	- 环境及工具：windows，visual studio，sqlserver，iis，svn
-	
+
 #### GEF火电办项目管理系统
 
 - 项目时间：2010~2011
@@ -213,4 +213,3 @@ X5系统的java版本
 - 参与时间：2007.5~2008.4
 - 职责：技术支持
 - 工作内容：oracle plsql开发、cognos报表开发、需求调研、培训支持
-
