@@ -71,5 +71,5 @@ iptables -A OUTPUT -o eth0 -p tcp --sport 1024:65535 -d any/0 --dport 587 -j ACC
 iptables -A INPUT -i eth0 -p tcp ! --syn -s any/0 --sport 587 --dport 1024:65525 -j ACCEPT 
 
 ##防止ssh攻击
-/sbin/iptables -I INPUT -p tcp --dport 22 -m state --state NEW -m recent --name sshprobe --set -j ACCEPT
-/sbin/iptables -I INPUT -p tcp --dport 22 -m state --state NEW -m recent --name sshprobe --update --seconds 60 --hitcount 3 --rttl -j DROP
+iptables -I INPUT -p tcp --dport 22 -m state --state NEW -m recent --name sshprobe --set -j ACCEPT
+iptables -I INPUT -p tcp --dport 22 -m state --state NEW -m recent --name sshprobe --update --seconds 60 --hitcount 3 --rttl -j DROP

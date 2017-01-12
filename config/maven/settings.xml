@@ -12,30 +12,18 @@
   <servers>
       <server>
           <id>nexus</id>
-          <username>djzhao</username>
-          <password>{Z2ianSHEgujEWWqbKSWBRXDOcyeRwbLODTQn4nYELJ4=}</password>
+          <username>dev</username>
+          <password>***</password>
       </server>
   </servers>
 
   <mirrors>
       <mirror>
-          <id>nexus</id>
-          <name>demo.com</name>
-          <mirrorOf>*,!central</mirrorOf>
-          <url>http://www.demo.com/nexus/content/groups/repo_group/</url>
-      </mirror>
-      <!--<mirror>
           <id>dev</id>
-          <name>jboss public repository</name>
+          <name>aliyun maven</name>
+          <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
           <mirrorOf>central</mirrorOf>
-          <url>https://repository.jboss.org/nexus/content/groups/public/</url>
       </mirror>
-      <mirror>
-          <id>dev</id>
-          <name>ibiblio public repository</name>
-          <mirrorOf>central</mirrorOf>
-          <url>http://mirrors.ibiblio.org/maven2/</url>
-      </mirror>-->
   </mirrors>
 
   <profiles>
@@ -43,7 +31,7 @@
           <id>nexus</id>
           <repositories>
               <repository>
-                  <id>local</id>
+                  <id>central</id>
                   <url>http://central</url>
                   <releases><enabled>true</enabled></releases>
                   <snapshots><enabled>true</enabled></snapshots>
@@ -51,7 +39,7 @@
           </repositories>
           <pluginRepositories>
               <pluginRepository>
-                  <id>local</id>
+                  <id>central</id>
                   <url>http://central</url>
                   <releases><enabled>true</enabled></releases>
                   <snapshots><enabled>true</enabled></snapshots>
@@ -63,7 +51,7 @@
           <repositories>
               <repository>
                   <id>central</id>
-                  <url>http://repo1.maven.org/maven2</url>
+                  <url>http://central</url>
                   <snapshots>
                       <enabled>false</enabled>
                   </snapshots>
@@ -72,7 +60,7 @@
           <pluginRepositories>
               <pluginRepository>
                   <id>central</id>
-                  <url>http://repo1.maven.org/maven2</url>
+                  <url>http://central</url>
                   <releases><enabled>true</enabled></releases>
                   <snapshots><enabled>false</enabled></snapshots>
               </pluginRepository>
@@ -81,7 +69,7 @@
   </profiles>
 
   <activeProfiles>
-      <activeProfile>nexus</activeProfile>
       <activeProfile>dev</activeProfile>
+      <!--<activeProfile>nexus</activeProfile>-->
   </activeProfiles>
 </settings>
